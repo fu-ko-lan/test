@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "janken_web"
+version = "0.1.0"
+description = "Simple rock-paper-scissors web app"
+readme = "README.md"
+authors = [{name = "Codex"}]
+license = {text = "MIT"}
+
+[project.scripts]
+janken-web = "janken_web.__init__:main"
